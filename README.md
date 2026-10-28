@@ -16,6 +16,24 @@ Bài 4.1 chỉ kiểm tra ô trống rồi báo "Đăng nhập thành công". B�
 
 Tài khoản mẫu: **admin / 123456**
 
+## Hình ảnh minh họa
+
+**1. Giao diện bình thường** – nhập tài khoản, tick "Hiện mật khẩu" để xem mật khẩu.
+
+![Giao diện chính](docs/bai5_1_main.jpg)
+
+**2. Nhập lỗi** – để trống tên đăng nhập rồi bấm Đăng nhập, `ErrorProvider` báo lỗi cạnh ô nhập.
+
+![Bắt lỗi nhập liệu](docs/bai5_1_error.jpg)
+
+**3. Thêm tài khoản thành công** – bấm "Tạo tài khoản", tài khoản mới được lưu vào bảng `TaiKhoan` trong MySQL.
+
+![Tạo tài khoản](docs/bai5_1_add.jpg)
+
+**4. Đăng nhập thành công** – mật khẩu được kiểm tra với dữ liệu trong CSDL.
+
+![Đăng nhập thành công](docs/bai5_1_login.jpg)
+
 ## Cách chạy
 1. Cài XAMPP, mở **XAMPP Control Panel** → **Start MySQL** (mặc định user `root`, không mật khẩu, cổng 3306).
 2. Mở `BaiTap5_1_LoginForm.csproj` bằng Visual Studio 2022+ (.NET 10). NuGet tự tải gói `MySqlConnector`.
